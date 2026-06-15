@@ -3,8 +3,9 @@
 
 
 
-if global.intro_page >= 5 {
-	visible = false
-	room_goto_next()
-} 
 
+y += global.game_vel
+
+if (y >= room_height) {
+	y = -sprite_height
+}

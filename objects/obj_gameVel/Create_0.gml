@@ -2,9 +2,7 @@
 // Você pode escrever seu código neste editor
 
 
+interval = 10*room_speed
 
-if global.intro_page >= 5 {
-	visible = false
-	room_goto_next()
-} 
+alarm[0] = interval
 

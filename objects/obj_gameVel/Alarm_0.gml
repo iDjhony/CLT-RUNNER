@@ -2,9 +2,8 @@
 // Você pode escrever seu código neste editor
 
 
+global.game_vel++
 
-if global.intro_page >= 5 {
-	visible = false
-	room_goto_next()
-} 
+alarm[0] = interval
 
+show_debug_message("o jogo acelerou");

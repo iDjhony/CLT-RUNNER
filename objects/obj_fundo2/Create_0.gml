@@ -3,8 +3,4 @@
 
 
 
-if global.intro_page >= 5 {
-	visible = false
-	room_goto_next()
-} 
-
+y = global.pos_fundo2
