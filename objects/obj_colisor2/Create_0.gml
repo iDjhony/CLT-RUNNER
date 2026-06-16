@@ -3,4 +3,5 @@
 
 
 
-y = global.posy_fundo2
+
+x = global.posx_colisor1

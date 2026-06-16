@@ -5,7 +5,9 @@
 
 
 y += global.game_vel
+global.posy_fundo1 = y
 
 if (y >= room_height) {
-	y = -sprite_height
+	y = global.posy_fundo2 - 639 + global.game_vel
+	show_debug_message(y)
 }

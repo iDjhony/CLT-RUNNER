@@ -2,4 +2,4 @@
 // Você pode escrever seu código neste editor
 
 
-y = global.pos_fundo1
+y = global.posy_fundo1
