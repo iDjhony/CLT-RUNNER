@@ -3,17 +3,17 @@
 
 
 if left {
-	if x > 32 {
+	if x > 28 {
 		x -= gravidade
 	} else {
-		x = 32
+		x = 28
 	}
 }
 
 if right {
-	if x < room_width - 64 {
+	if x < room_width - 28 {
 		x += gravidade
 	} else {
-		x = room_width - 64
+		x = room_width - 28
 	}
 }
