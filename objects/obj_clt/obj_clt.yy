@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_clt",
   "spriteId": {
-    "name": "spr_player_strip8",
-    "path": "sprites/spr_player_strip8/spr_player_strip8.yy",
+    "name": "spr_clt_strip8",
+    "path": "sprites/spr_clt_strip8/spr_clt_strip8.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,8 +27,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -12,5 +12,3 @@ global.posy_fundo1 = 0
 global.posy_fundo2 = -640
 
 //mapeando colisores
-global.posx_colisor1 = 0
-global.posx_colisor2 = 0

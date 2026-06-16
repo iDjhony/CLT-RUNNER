@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"obj_page01","path":"objects/obj_page01/obj_page01.yy",},"order":0,},
     {"id":{"name":"spr_chocolate_strip21","path":"sprites/spr_chocolate_strip21/spr_chocolate_strip21.yy",},"order":1,},
+    {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},"order":10,},
     {"id":{"name":"spr_coxinha_strip21","path":"sprites/spr_coxinha_strip21/spr_coxinha_strip21.yy",},"order":3,},
     {"id":{"name":"obj_fundo2","path":"objects/obj_fundo2/obj_fundo2.yy",},"order":7,},
     {"id":{"name":"obj_intro","path":"objects/obj_intro/obj_intro.yy",},"order":4,},
@@ -25,6 +26,7 @@
     {"id":{"name":"obj_page04","path":"objects/obj_page04/obj_page04.yy",},"order":3,},
     {"id":{"name":"obj_page02","path":"objects/obj_page02/obj_page02.yy",},"order":1,},
     {"id":{"name":"spr_hamburg_strip21","path":"sprites/spr_hamburg_strip21/spr_hamburg_strip21.yy",},"order":5,},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":9,},
     {"id":{"name":"obj_fundo","path":"objects/obj_fundo/obj_fundo.yy",},"order":5,},
     {"id":{"name":"scr_inicializa","path":"scripts/scr_inicializa/scr_inicializa.yy",},"order":0,},
     {"id":{"name":"space","path":"sprites/space/space.yy",},"order":11,},
