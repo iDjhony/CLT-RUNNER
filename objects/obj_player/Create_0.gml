@@ -1,7 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-gravidade = 12
+gravidade_inicial = 6
+
+gravidade = gravidade_inicial
 
 left = true
 right = false

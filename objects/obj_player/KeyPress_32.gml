@@ -1,9 +1,11 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-if x == 28 or x == room_width - 28 {
+if x <= 40 or x >= room_width - 40 {
 	left = !left
 	right = !right
+	
+	gravidade = gravidade_inicial + global.game_vel
 
 	image_xscale = -image_xscale
 

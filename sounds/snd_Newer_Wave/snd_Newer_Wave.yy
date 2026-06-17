@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "Newer_Wave",
+  "name": "snd_Newer_Wave",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.07,
+  "volume": 0.05,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -14,7 +14,7 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Newer_Wave.mp3",
+  "soundFile": "snd_Newer_Wave.mp3",
   "duration": 174.60245,
   "parent": {
     "name": "Sounds",
