@@ -1,10 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-gravidade = 8
+gravidade = 12
 
 left = true
 right = false
 
 x = 28
-y = 400
+y = 460

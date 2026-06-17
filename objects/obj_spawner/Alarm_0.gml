@@ -1,8 +1,14 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-show_debug_message("SPAWNOU")
+show_debug_message("SPAWNOU ESQUERDA")
 
-instance_create_layer(0, -64, "Instances", obj_clt)
+if spawnar {
+	instance_create_layer(0, -64, "Instances", obj_clt)
+	spawnar = false
+	ultimo_spawn_esquerda = 1
+}
 
-alarm[0] = 2*room_speed
+alarm[0] = irandom_range(30, 120)
+
+show_debug_message(alarm[0])

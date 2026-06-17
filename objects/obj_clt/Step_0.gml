@@ -4,3 +4,6 @@
 
 y += global.game_vel
 
+if y > room_height + 64 {
+	instance_destroy(id)
+}
