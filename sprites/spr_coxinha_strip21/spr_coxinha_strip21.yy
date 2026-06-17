@@ -56,7 +56,7 @@
     "name": "spr_coxinha_strip21",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -104,6 +104,7 @@
     "eventStubScript": null,
   },
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d7d2bc30-5971-43c7-8394-da399d359409","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e6713815-e1d7-4283-9b0b-e81594b7aab2","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,

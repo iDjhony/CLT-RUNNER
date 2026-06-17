@@ -11,4 +11,9 @@ global.game_vel = 4
 global.posy_fundo1 = 0
 global.posy_fundo2 = -640
 
-//mapeando colisores
+// pontos do jogador
+global.pontos = 0
+
+//vida inicial
+global.vida_max = 6
+global.vida = global.vida_max

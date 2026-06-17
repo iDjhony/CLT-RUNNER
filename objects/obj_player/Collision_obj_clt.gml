@@ -5,3 +5,4 @@
 show_debug_message("player colidiu com clt;")
 instance_destroy(other)
 
+global.vida--
