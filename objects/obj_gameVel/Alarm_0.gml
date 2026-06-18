@@ -1,18 +1,19 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-
-global.game_vel++
-
-
-new_interval += interval
+if !global.restart {
+	global.game_vel++
 
 
-alarm[0] = new_interval
+	new_interval += interval
 
 
-show_debug_message("novo intervalo:");
-show_debug_message(new_interval)
+	alarm[0] = new_interval
 
-show_debug_message("o jogo acelerou");
-show_debug_message(global.game_vel)
+
+	show_debug_message("novo intervalo:");
+	show_debug_message(new_interval)
+
+	show_debug_message("o jogo acelerou");
+	show_debug_message(global.game_vel)
+}

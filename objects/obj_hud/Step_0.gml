@@ -12,6 +12,7 @@ if timer_pontos < 6 {
 if (ganho_pontos != global.pontos_coletados) {
 	ganho_pontos = global.pontos_coletados
 	
+	
 	mostrar_pontos = true
 	tempo_pontos = room_speed *2
 	pontos_pos = pontos_pos_inicial
@@ -20,11 +21,11 @@ if (ganho_pontos != global.pontos_coletados) {
 if (mostrar_pontos) {
 	tempo_pontos--
 	
-	if (tempo_pontos <= room_speed) {
+	if (tempo_pontos <= room_speed / 2) {
 		if anim_pontos < 3 {
 			anim_pontos++
 		} else {
-			pontos_pos--
+			pontos_pos-=2
 			anim_pontos = 0
 		}
 	}

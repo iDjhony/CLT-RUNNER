@@ -21,3 +21,7 @@ if right {
 		x = room_width - 28
 	}
 }
+
+if (global.restart) {
+	exit;
+}

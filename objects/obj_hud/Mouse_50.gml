@@ -1,8 +1,11 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+if global.restart {
+	inicializar()
+	
+	audio_stop_all()
+	room_restart()
+}
 
-//show_debug_message("player colidiu com CLT;")
-
-pause()
 

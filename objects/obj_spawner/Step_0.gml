@@ -17,3 +17,5 @@ if ultimo_spawn_direita > 100 {
 	spawnar = true
 	ultimo_spawn_direita = noone
 }
+
+if global.restart exit;
