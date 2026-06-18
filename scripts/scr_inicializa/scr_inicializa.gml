@@ -13,7 +13,8 @@ global.posy_fundo2 = -640
 
 // pontos do jogador
 global.pontos = 0
+global.pontos_coletados = 0
 
 //vida inicial
-global.vida_max = 6
-global.vida = global.vida_max
+//global.vida_max = 6
+//global.vida = global.vida_max

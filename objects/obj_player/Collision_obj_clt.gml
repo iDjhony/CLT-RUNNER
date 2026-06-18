@@ -2,7 +2,5 @@
 // Você pode escrever seu código neste editor
 
 
-show_debug_message("player colidiu com clt;")
+show_debug_message("player colidiu com CLT;")
 instance_destroy(other)
-
-global.vida--

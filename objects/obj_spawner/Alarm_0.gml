@@ -1,10 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+//GERA UMA CARTEIRA CLT NA ESQUERDA
+
 show_debug_message("SPAWNOU ESQUERDA")
 
 if spawnar {
-	instance_create_layer(0, -64, "Instances", obj_clt)
+	instance_create_layer(36, -64, "Instances", obj_clt)
 	spawnar = false
 	ultimo_spawn_esquerda = 1
 }

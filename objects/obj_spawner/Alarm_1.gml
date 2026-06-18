@@ -7,7 +7,7 @@
 show_debug_message("SPAWNOU DIREITA")
 
 if spawnar {
-	instance_create_layer(room_width, -64, "Instances", obj_clt)
+	instance_create_layer(room_width - 36, -64, "Instances", obj_clt)
 	spawnar = false
 	ultimo_spawn_direita = 1
 }
