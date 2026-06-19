@@ -18,4 +18,12 @@ if ultimo_spawn_direita > 100 {
 	ultimo_spawn_direita = noone
 }
 
+if ultimo_spawn_meio {
+	ultimo_spawn_meio += global.game_vel
+}
+if ultimo_spawn_meio > 100 {
+	spawnar = true
+	ultimo_spawn_meio = noone
+}
+
 if global.restart exit;
